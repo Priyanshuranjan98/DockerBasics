@@ -15,8 +15,8 @@ deploy:
   secret_access_key:
     secure: "$SECRET_ACCESS_KEY"
   region: "us-east-1"
-  app: "docker-learning"
-  env: "dockerlearning-env-1"
+  app: "docker-learn"
+  env: "dockerlearn-env"
   bucket_name: "elasticbeanstalk-us-east-1-830036975273"
   bucket_path: "docker-learning"
   on:
